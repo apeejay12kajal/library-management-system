@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Aug, 2017, 8:11:02 PM
+    Author     : SIMRAN SRIVASTAVA
+*/
+
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0px 60px;
+}
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  
+  left: 0;
+  top: 80px;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+}
+
+
+h1 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  
+}
+h2 {
+  color: red;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family:cursive;
+}
+.header {
+   box-sizing: border-box;
+  border-bottom: 1px solid #466995;
+  
+  
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  height: 50%;
+  background-color: #466995;
+   background-image: url("images/lib.jpg");
+   background-position: center center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  
+}
+p {
+  color: #D7263D ;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+.share{
+    border: 1px solid #DDD;
+    padding: 20px 0px;
+    position: relative;
+    text-align: center;
+    background-color: #466995 ;
+    height: 400px;
+    width: 96.7%;
+   font-family:cursive;
+   
+  padding: 20px;
+}
+.admin{
+    background: #D7263D;
+    border: 1px solid #D7263D;
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 14px;
+    text-decoration: none;
+    box-sizing: border-box;
+  padding: 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family:cursive;
+}
+.share a{
+    background: #D7263D;
+    border: 1px solid #D7263D;
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 14px;
+    text-decoration: none;
+    box-sizing: border-box;
+  padding: 20px;
+    
+    
+}
+
+paragraph{
+    
+    background-color: #D7263D;
+  box-sizing: border-box;
+  padding: 40px;
+  
+  left: 0;
+  top: 80px;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+}
+
+
+footer{
+    background-color: lightblue;
+        height: 400px;
+        width: 100%;
+    
+}
+
+
+
+
+.tabledata{
+    height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 100%;
+    border:  1px solid #DDD ;
+   background: #88CCF1;
+   background-color: #3587A4;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  
+}
